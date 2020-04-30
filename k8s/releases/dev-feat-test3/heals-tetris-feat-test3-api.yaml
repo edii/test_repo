@@ -5,7 +5,7 @@ metadata:
   namespace: dev
   annotations:
     fluxcd.io/automated: "true"
-    filter.fluxcd.io/chart-image: global:feat-test3_dc2143d
+    filter.fluxcd.io/chart-image: global:feat-test3_b48c7c1
 spec:
   releaseName: heals-tetris-feat-test3-scheduler
   chart:
@@ -16,7 +16,7 @@ spec:
     replicaCount: 1
     image:
       repository: 437202414690.dkr.ecr.eu-north-1.amazonaws.com/heals.tetris.api
-      tag: feat-test3_dc2143d
+      tag: feat-test3_b48c7c1
       pullPolicy: IfNotPresent
     imagePullSecrets: []
     nameOverride: ""
